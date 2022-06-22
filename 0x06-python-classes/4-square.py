@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 
-"""A class that defines a square """
+"""A class that defines a square"""
 
 class Square:
-    """Square class """
+    """Square class"""
     def __init__(self,size=0):
         """Square initialized with size"""
         if(isinstance(size,int)is False):
@@ -29,5 +29,5 @@ class Square:
             self.__size= value
 
         def area(self):
-            """return area of a square"""
+            """Return the area"""
             return self.__size**2

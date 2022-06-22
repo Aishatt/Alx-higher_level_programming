@@ -3,10 +3,10 @@
 
 
 class Square:
-    """Square class initialized with size"""
+    """Square class."""
 
     def __init__(self, size=0):
-
+        """Square class initialized with size"""
         if (isinstance(size,int)is False):
             raise TypeError("size must be an integer")
         elif size < 0 :
