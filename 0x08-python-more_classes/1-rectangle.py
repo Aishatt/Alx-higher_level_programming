@@ -32,4 +32,4 @@ class Rectangle:
             raise TypeError("height must be an integer")
         if value < 0:
             raise TypeError("height must be >=0")
-        self.height = value
+        self.__height = value
